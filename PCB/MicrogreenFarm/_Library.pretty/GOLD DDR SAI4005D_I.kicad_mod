@@ -1,0 +1,216 @@
+(footprint "GOLD DDR SAI4005D_I"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "NCR solid state relay 1A, 2A, 3A, 4A, https://ncr.hk/uploads/Relays/Solid_State_Relays/HHG1D-1.pdf")
+	(tags "ssr")
+	(property "Reference" "REF**"
+		(at 16.57 -7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "952f2c2f-3cb9-4566-a551-60e64676c5f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GOLD DDR SAI4005D_I"
+		(at 16.07 7.25 0)
+		(layer "F.Fab")
+		(uuid "e26a258e-32a3-407c-9b89-b620dd1e8c5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.57 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c9d42b5-f9b4-4c2f-a9ea-06178d1a674e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.57 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e868eb22-026b-4cd2-84dc-12da16a93d3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.37 -6.44)
+		(end -5.37 -5.14)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fdd53d46-7663-401b-8d80-54fd5ed7ba56")
+	)
+	(fp_line
+		(start -5.37 -6.44)
+		(end -4.07 -6.44)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "53895d23-a9a0-430b-8b52-402d9d21b4f4")
+	)
+	(fp_rect
+		(start -5.07 -6.14)
+		(end 35.31 6.14)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ead26be8-b05e-4f07-a9c4-ef5ab4f7e3c0")
+	)
+	(fp_circle
+		(center 32.9 0)
+		(end 33.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a1be2439-f748-4bd9-8afc-d30b892e0ab3")
+	)
+	(fp_rect
+		(start -5.18 -6.25)
+		(end 35.42 6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2e4d0324-d9ce-4c02-ae8d-50639c568f20")
+	)
+	(fp_line
+		(start -4.93 6)
+		(end -4.93 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "eec79d13-3e11-4601-bf80-0d18bcf0ae75")
+	)
+	(fp_line
+		(start -3.93 -6)
+		(end -4.93 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0922381b-003a-4d7b-a005-a416441d1a34")
+	)
+	(fp_line
+		(start 35.17 -6)
+		(end -3.93 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f8bc1626-629a-4d2a-a747-d09ec7488c7d")
+	)
+	(fp_line
+		(start 35.17 6)
+		(end -4.93 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d09e91e7-a594-41f6-87a7-6063b1cc9b85")
+	)
+	(fp_line
+		(start 35.17 6)
+		(end 35.17 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "85fa960b-5d39-4ab4-9e5d-9733d57e7945")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 16.07 0 0)
+		(layer "F.Fab")
+		(uuid "f3c21bc8-105c-4e38-aee6-5a247039f4a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "11" thru_hole oval
+		(at 10.2 0)
+		(size 2 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e522c3f8-d3c7-45e1-936a-e5fd2e5e4912")
+	)
+	(pad "12" thru_hole oval
+		(at 0 0)
+		(size 2 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12101f98-3889-420e-9720-69514634618d")
+	)
+	(pad "A1" thru_hole oval
+		(at 30.5 0)
+		(size 2 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2f5fdd8-17bd-464c-b7a7-489ca91f23ff")
+	)
+	(pad "A2" thru_hole oval
+		(at 23 0)
+		(size 2 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39181165-aa65-420b-a953-e3e70bc2cc43")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_NCR_HHG1D.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
